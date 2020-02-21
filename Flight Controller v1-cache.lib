@@ -1,0 +1,868 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Flight-Controller-v1-rescue_+3V3-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_+3V3-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Flight-Controller-v1-rescue_+3V3-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" -5 120 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_+5V-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_+5V-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Flight-Controller-v1-rescue_+5V-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 150 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 75 0 125 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 0 125 N
+P 2 0 1 0 0 125 30 75 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_+VBattery-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_+VBattery-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Flight-Controller-v1-rescue_+VBattery-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 150 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 75 0 125 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 0 125 N
+P 2 0 1 0 0 125 30 75 N
+X +VBattery 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_AP3211-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_AP3211-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 400 39 H V C CNB
+F1 "Flight-Controller-v1-rescue_AP3211-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 39 H V C CNB
+F2 "" 25 -50 60 H I C CNN
+F3 "" 25 -50 60 H I C CNN
+DRAW
+S -350 350 350 -350 0 1 20 f
+X BS 1 450 250 91 L 50 50 1 1 I
+X GND 2 -450 -250 91 R 50 50 1 1 W
+X FB 3 450 -250 91 L 50 50 1 1 I
+X EN 4 -450 0 91 R 50 50 1 1 I
+X IN 5 -450 250 91 R 50 50 1 1 W
+X SW 6 450 0 91 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_AP3429-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_AP3429-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 15 380 39 H V C CNB
+F1 "Flight-Controller-v1-rescue_AP3429-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 125 39 H V C CNB
+F2 "" 25 -50 31 H I C CNN
+F3 "" 25 -50 31 H I C CNN
+DRAW
+S -275 350 275 -350 0 1 20 f
+X EN 1 -400 0 118 R 50 50 1 1 I
+X GND 2 -400 -250 118 R 50 50 1 1 W
+X LX 3 400 250 118 L 50 50 1 1 w
+X VIN 4 -400 250 118 R 50 50 1 1 W
+X FB 5 400 -250 118 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_BNO055-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_BNO055-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 800 79 H V C CNB
+F1 "Flight-Controller-v1-rescue_BNO055-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 79 H V C CNB
+F2 "" 50 -750 60 H I C CNN
+F3 "" 50 -750 60 H I C CNN
+DRAW
+S -750 700 750 -1000 0 1 20 f
+X PIN1 1 950 650 197 L 39 39 1 1 B
+X BL_IND 10 950 -350 197 L 39 39 1 1 I
+X RESET 11 950 -550 197 L 39 39 1 1 I
+X PIN12 12 950 -750 197 L 39 39 1 1 B
+X PIN13 13 950 -850 197 L 39 39 1 1 B
+X INT 14 950 -950 197 L 39 39 1 1 O
+X PIN15 15 -950 -950 197 R 39 39 1 1 I
+X PIN16 16 -950 -850 197 R 39 39 1 1 I
+X COM3/I2CADR 17 -950 -750 197 R 39 39 1 1 I
+X COM2/GND 18 -950 -650 197 R 39 39 1 1 I
+X SCL 19 -950 -350 197 R 39 39 1 1 B
+X GND 2 950 550 197 L 39 39 1 1 W
+X SDA 20 -950 -250 197 R 39 39 1 1 B
+X PIN21 21 -950 -150 197 R 39 39 1 1 B
+X PIN22 22 -950 -50 197 R 39 39 1 1 B
+X PIN23 23 -950 50 197 R 39 39 1 1 B
+X PIN24 24 -950 150 197 R 39 39 1 1 B
+X GND 25 -950 250 197 R 39 39 1 1 W
+X XOUT32 26 -950 350 197 R 39 39 1 1 B
+X XIN32 27 -950 550 197 R 39 39 1 1 B
+X VDDIO 28 -950 650 197 R 39 39 1 1 W
+X VDD 3 950 450 197 L 39 39 1 1 W
+X NBOOT 4 950 350 197 L 39 39 1 1 I
+X PS1 5 950 250 197 L 39 39 1 1 I
+X PS0 6 950 150 197 L 39 39 1 1 I
+X PIN7 7 950 50 197 L 39 39 1 1 B
+X PIN8 8 950 -50 197 L 39 39 1 1 B
+X CAP 9 950 -150 197 L 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Button-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Button-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue SW 0 40 N N 1 F N
+F0 "SW" 70 50 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_Button-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -20 20 H V C CNB
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+S -30 30 30 50 0 1 0 F
+P 2 0 1 0 -50 30 -50 0 N
+P 2 0 1 0 -50 30 50 30 N
+P 2 0 1 0 10 0 60 0 N
+P 2 0 1 0 50 30 50 0 f
+P 3 0 1 0 -60 0 -20 0 10 20 N
+X 1 1 -100 0 39 R 50 50 0 1 P
+X 2 2 100 0 39 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Buzzer-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Buzzer-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 135 -105 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_Buzzer-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 80 100 20 H V C CNB
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A 210 0 25 -899 899 0 1 0 N 210 -25 210 25
+A 230 0 35 -899 899 0 1 0 N 230 -35 230 35
+A 240 0 50 -899 899 0 1 0 N 240 -50 240 50
+S 20 80 110 -80 0 1 0 F
+P 6 0 1 0 110 -80 150 -80 200 -130 200 130 150 80 110 80 f
+X + 1 -100 50 118 R 39 39 1 1 W
+X - 2 -100 -50 118 R 39 39 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_CC2541-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_CC2541-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 1850 118 H V C CNB
+F1 "Flight-Controller-v1-rescue_CC2541-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 118 H V C CNB
+F2 "" -250 -1150 60 H I C CNN
+F3 "" -250 -1150 60 H I C CNN
+DRAW
+S -800 1750 800 -1700 0 1 20 f
+X GND 1 -1000 1650 197 R 39 39 1 1 W
+X DVDD2 10 1000 950 197 L 39 39 1 1 W
+X P1_0 11 -1000 400 197 R 39 39 1 1 B
+X P0_7 12 -1000 -1200 197 R 39 39 1 1 B
+X P0_6 13 -1000 -1100 197 R 39 39 1 1 B
+X P0_5 14 -1000 -1000 197 R 39 39 1 1 B
+X P0_4 15 -1000 -900 197 R 39 39 1 1 B
+X P0_3 16 -1000 -800 197 R 39 39 1 1 B
+X P0_2 17 -1000 -700 197 R 39 39 1 1 B
+X P0_1 18 -1000 -600 197 R 39 39 1 1 B
+X P0_0 19 -1000 -500 197 R 39 39 1 1 B
+X SCL 2 -1000 1550 197 R 39 39 1 1 B
+X NRESET 20 -1000 -1400 197 R 39 39 1 1 I
+X AVDD5 21 1000 1250 197 L 39 39 1 1 W
+X XOSC_Q1 22 1000 -450 197 L 39 39 1 1 B
+X XOSC_Q2 23 1000 -650 197 L 39 39 1 1 B
+X AVDD3 24 1000 1450 197 L 39 39 1 1 W
+X RF_P 25 1000 300 197 L 39 39 1 1 B
+X RF_N 26 1000 100 197 L 39 39 1 1 B
+X AVDD2 27 1000 1550 197 L 39 39 1 1 W
+X AVDD1 28 1000 1650 197 L 39 39 1 1 W
+X AVDD4 29 1000 1350 197 L 39 39 1 1 W
+X SDA 3 -1000 1450 197 R 39 39 1 1 B
+X RBIAS 30 1000 -1600 197 L 39 39 1 1 I
+X AVDD6 31 1000 1150 197 L 39 39 1 1 W
+X P2_4/XOSC32K_Q1 32 -1000 650 197 R 39 39 1 1 B
+X P2_3/XOSC32K_Q2 33 -1000 850 197 R 39 39 1 1 B
+X P2_2 34 -1000 950 197 R 39 39 1 1 B
+X P2_1 35 -1000 1050 197 R 39 39 1 1 B
+X P2_0 36 -1000 1150 197 R 39 39 1 1 B
+X P1_7 37 -1000 -300 197 R 39 39 1 1 B
+X P1_6 38 -1000 -200 197 R 39 39 1 1 B
+X DVVD1 39 1000 1050 197 L 39 39 1 1 W
+X NC 4 -1000 1350 197 R 39 39 1 1 B
+X DCOUPL 40 1000 -1400 197 L 39 39 1 1 I
+X GND/EXP 41 -1000 -1600 197 R 39 39 1 1 W
+X P1_5 5 -1000 -100 197 R 39 39 1 1 B
+X P1_4 6 -1000 0 197 R 39 39 1 1 B
+X P1_3 7 -1000 100 197 R 39 39 1 1 B
+X P1_2 8 -1000 200 197 R 39 39 1 1 B
+X P1_1 9 -1000 300 197 R 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_CONNECTOR_01X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_CONNECTOR_01X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 40 Y N 1 F N
+F0 "J" 0 115 16 H V C CNB
+F1 "Flight-Controller-v1-rescue_CONNECTOR_01X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 75 0 16 V V C CNB
+F2 "" 0 10 50 H I C CNN
+F3 "" 0 10 50 H I C CNN
+DRAW
+S -50 -45 10 -55 0 1 0 F
+S -50 55 10 45 0 1 0 F
+S -50 100 50 -100 0 1 0 f
+X P1 1 -150 50 118 R 39 39 1 1 P
+X P2 2 -150 -50 118 R 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_CONNECTOR_01X03-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_CONNECTOR_01X03-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 40 Y N 1 F N
+F0 "J" 0 165 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_CONNECTOR_01X03-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 70 0 20 V V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -95 10 -105 0 1 0 F
+S -50 5 10 -5 0 1 0 F
+S -50 105 10 95 0 1 0 F
+S -50 150 50 -150 0 1 0 f
+X P1 1 -150 100 118 R 39 39 1 1 P
+X P2 2 -150 0 118 R 39 39 1 1 P
+X P3 3 -150 -100 118 R 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_CONNECTOR_01X05-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_CONNECTOR_01X05-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 40 Y N 1 F N
+F0 "J" 0 275 31 H V C CNB
+F1 "Flight-Controller-v1-rescue_CONNECTOR_01X05-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 80 0 31 V V C CNB
+F2 "" 0 -250 50 H I C CNN
+F3 "" 0 -250 50 H I C CNN
+DRAW
+S -50 -195 10 -205 0 1 0 F
+S -50 -95 10 -105 0 1 0 F
+S -50 5 10 -5 0 1 0 F
+S -50 105 10 95 0 1 0 F
+S -50 205 10 195 0 1 0 F
+S -50 250 50 -250 0 1 0 f
+X P1 1 -150 200 118 R 39 39 1 1 P
+X P2 2 -150 100 118 R 39 39 1 1 P
+X P3 3 -150 0 118 R 39 39 1 1 P
+X P4 4 -150 -100 118 R 39 39 1 1 P
+X P5 5 -150 -200 118 R 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Capacitor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Capacitor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue C 0 10 N N 1 F N
+F0 "C" 15 40 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Capacitor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 5 0 20 H V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 50 25 D 50 50 1 1 P
+X ~ 2 0 -50 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Connector_02X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Connector_02X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 1 Y N 1 F N
+F0 "J" 0 120 16 H V C CNB
+F1 "Flight-Controller-v1-rescue_Connector_02X02-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 16 V V C CNB
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+DRAW
+S -100 -45 -50 -55 0 1 0 F
+S -100 55 -50 45 0 1 0 F
+S -100 100 100 -100 0 1 0 f
+S 50 -45 100 -55 0 1 0 F
+S 50 55 100 45 0 1 0 F
+X P1 1 -200 50 118 R 39 39 1 1 P
+X P2 2 200 50 118 L 39 39 1 1 P
+X P3 3 -200 -50 118 R 39 39 1 1 P
+X P4 4 200 -50 118 L 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Connector_Pad-2-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Connector_Pad-2-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 N N 1 F N
+F0 "U" 0 100 28 H V C CNB
+F1 "Flight-Controller-v1-rescue_Connector_Pad-2-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -100 28 H V C CNB
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -130 60 130 -60 0 1 0 N
+S -120 50 -20 -50 0 1 0 F
+S 20 50 120 -50 0 1 0 F
+X 1 1 150 0 39 L 28 28 1 1 P
+X 2 2 -150 0 39 R 28 28 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Crystal_2Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Crystal_2Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue Y 0 40 N N 1 F N
+F0 "Y" 5 95 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_Crystal_2Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -5 16 V V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -35 80 35 -80 0 1 0 f
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X ~ 1 -100 0 50 R 20 50 1 1 P
+X ~ 2 100 0 50 L 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Crystal_4Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Crystal_4Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue Y 0 40 Y N 1 F N
+F0 "Y" -15 -95 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Crystal_4Pin-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 16 V V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -30 -60 30 60 0 1 0 f
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+P 4 0 1 0 -50 -50 -50 -75 50 -75 50 -50 N
+P 4 0 1 0 -50 50 -50 75 50 75 50 50 N
+X ~ 1 -100 0 50 R 12 20 1 1 P
+X ~ 2 -50 -100 28 U 12 20 1 1 P
+X ~ 3 100 0 50 L 12 20 1 1 P
+X ~ 4 50 -100 28 U 12 20 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue D 0 10 N N 1 F N
+F0 "D" -20 55 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -60 20 H V C CNB
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Diode_Schottky-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Diode_Schottky-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue D 0 10 N N 1 F N
+F0 "D" -15 50 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Diode_Schottky-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -60 20 H V C CNB
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Ferrite_Bead-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Ferrite_Bead-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue L 0 10 N N 1 F N
+F0 "L" -15 -40 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Ferrite_Bead-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 5 35 20 H V C CNB
+F2 "" 20 -10 50 V I C CNN
+F3 "" 20 -10 50 V I C CNN
+DRAW
+A -40 -10 20 1 1799 0 1 0 N -20 -10 -60 -10
+A 0 -10 20 1 1799 0 1 0 N 20 -10 -20 -10
+A 40 -10 20 1 1799 0 1 0 N 60 -10 20 -10
+S -60 -20 60 20 0 1 0 f
+X ~ 1 -100 0 39 R 50 50 1 1 P
+X ~ 2 100 0 39 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Fuse-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Fuse-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue F 0 10 N N 1 F N
+F0 "F" 0 -40 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_Fuse-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 35 20 H V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 20 50 -20 0 1 0 F
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_GND-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_GND-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Flight-Controller-v1-rescue_GND-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -125 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 F
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_GNDA-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_GNDA-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Flight-Controller-v1-rescue_GNDA-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -125 28 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -60 25 -60 N
+P 2 0 1 0 -15 -70 15 -70 N
+P 2 0 1 0 -5 -80 5 -80 N
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Inductor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Inductor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue L 0 10 N N 1 F N
+F0 "L" -15 35 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Inductor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -30 20 H V C CNB
+F2 "" 20 0 50 V I C CNN
+F3 "" 20 0 50 V I C CNN
+DRAW
+A -40 0 20 1 1799 0 1 0 N -20 0 -60 0
+A 0 0 20 1 1799 0 1 0 N 20 0 -20 0
+A 40 0 20 1 1799 0 1 0 N 60 0 20 0
+P 2 0 1 0 -60 -10 60 -10 N
+X ~ 1 -100 0 39 R 50 50 1 1 P
+X ~ 2 100 0 39 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_JTAG-SWD-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_JTAG-SWD-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 1 Y N 1 F N
+F0 "J" 0 270 39 H V C CNB
+F1 "Flight-Controller-v1-rescue_JTAG-SWD-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 -280 39 H V C CNB
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+DRAW
+S -70 -220 -30 -180 0 1 0 F
+S -70 -120 -30 -80 0 1 0 F
+S -70 -20 -30 20 0 1 0 F
+S -70 80 -30 120 0 1 0 F
+S -70 180 -30 220 0 1 0 F
+S 70 -180 30 -220 0 1 0 F
+S 70 -120 30 -80 0 1 0 F
+S 70 -20 30 20 0 1 0 F
+S 70 80 30 120 0 1 0 F
+S 70 180 30 220 0 1 0 F
+P 6 0 1 0 -80 -240 -80 220 -60 240 80 240 80 -240 -80 -240 f
+X P1 1 -150 200 79 R 28 28 1 1 P
+X P10 10 150 -200 79 L 28 28 1 1 P
+X P2 2 150 200 79 L 28 28 1 1 P
+X P3 3 -150 100 79 R 28 28 1 1 P
+X P4 4 150 100 79 L 28 28 1 1 P
+X P5 5 -150 0 79 R 28 28 1 1 P
+X P6 6 150 0 79 L 28 28 1 1 P
+X P7 7 -150 -100 79 R 28 28 1 1 P
+X P8 8 150 -100 79 L 28 28 1 1 P
+X P9 9 -150 -200 79 R 28 28 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Led_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Led_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue D 0 10 N N 1 F N
+F0 "D" -70 20 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Led_Diode-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 5 -60 20 H V C CNB
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 2 0 1 0 -10 60 0 60 N
+P 2 0 1 0 10 80 20 80 N
+P 3 0 1 0 10 40 -10 60 -10 50 N
+P 3 0 1 0 30 60 10 80 10 70 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_MicroSD_Card-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_MicroSD_Card-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 650 700 39 H V C CNB
+F1 "Flight-Controller-v1-rescue_MicroSD_Card-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" -450 600 39 H V C CNB
+F2 "" -550 50 39 H I C CNN
+F3 "" -550 50 39 H I C CNN
+DRAW
+S -700 650 700 -550 0 1 20 N
+S -305 -175 -230 -220 0 1 0 F
+S -305 25 -230 -20 0 1 0 F
+S -305 225 -230 180 0 1 0 F
+S -305 425 -230 380 0 1 0 F
+S -230 -275 -305 -320 0 1 0 F
+S -230 -75 -305 -120 0 1 0 F
+S -230 125 -305 80 0 1 0 F
+S -230 325 -305 280 0 1 0 F
+P 12 0 1 12 -350 450 -50 450 100 600 150 600 150 550 250 550 300 600 800 600 900 600 900 -350 -350 -350 -350 450 f
+X DAT2 1 -900 400 197 R 39 39 0 1 B
+X DETA 10 -900 -400 197 R 39 39 0 1 I
+X SHIELD 11 900 -500 197 L 39 39 0 1 W
+X DAT3/CD 2 -900 300 197 R 39 39 0 1 I
+X CMD 3 -900 200 197 R 39 39 0 1 I
+X VDD 4 -900 100 197 R 39 39 0 1 W
+X CLK 5 -900 0 197 R 39 39 0 1 I
+X VSS 6 -900 -100 197 R 39 39 0 1 W
+X DAT0 7 -900 -200 197 R 39 39 0 1 O
+X DAT1 8 -900 -300 197 R 39 39 0 1 B
+X DETB 9 -900 -500 197 R 39 39 0 1 I
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Mosfet-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Mosfet-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue Q 0 0 Y Y 1 F N
+F0 "Q" -100 100 39 H V L CNB
+F1 "Flight-Controller-v1-rescue_Mosfet-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 195 -10 39 V V C CNB
+F2 "" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+DRAW
+C 50 0 111 0 1 10 f
+C 100 -50 5 0 1 0 N
+C 100 50 5 0 1 0 N
+P 2 0 1 20 25 -40 25 -65 N
+P 2 0 1 20 25 15 25 -15 N
+P 2 0 1 20 25 65 25 40 N
+P 2 0 1 0 120 15 115 10 N
+P 2 0 1 0 120 15 140 15 N
+P 2 0 1 0 140 15 145 20 N
+P 3 0 1 10 0 60 0 -60 0 -60 N
+P 4 0 1 0 30 -50 100 -50 100 -100 100 -100 N
+P 4 0 1 0 30 50 100 50 100 100 100 100 N
+P 4 0 1 0 100 50 130 50 130 -50 100 -50 N
+P 4 0 1 0 130 15 120 -10 140 -10 130 15 F
+P 5 0 1 0 30 0 50 0 100 0 100 -50 100 -50 N
+P 6 0 1 0 35 0 75 15 75 -15 35 0 40 0 40 0 F
+X G 1 -200 -50 197 R 39 39 1 1 P
+X S 2 100 -200 100 U 39 39 1 1 P
+X D 3 100 200 100 D 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_Resistor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_Resistor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue R 0 10 N N 1 F N
+F0 "R" -15 45 20 H V L CNB
+F1 "Flight-Controller-v1-rescue_Resistor-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 20 H V C CNB
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+S -70 -30 70 30 0 1 8 N
+X ~ 1 -100 0 30 R 50 50 1 1 P
+X ~ 2 100 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_SAM3X8E-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_SAM3X8E-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 1700 2800 118 H V C CNB
+F1 "Flight-Controller-v1-rescue_SAM3X8E-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 118 H V C CNB
+F2 "" 1200 -2900 60 H I C CNN
+F3 "" 1200 -2900 60 H I C CNN
+DRAW
+S -1850 2700 1800 -2700 0 1 20 f
+X PB26 1 1000 -2900 197 U 39 39 1 1 B
+X VDDCORE 10 850 2900 197 D 39 39 1 1 W
+X PC18 100 2000 -750 197 L 39 39 1 1 B
+X PC19 101 2000 -650 197 L 39 39 1 1 B
+X PC29 102 2000 350 197 L 39 39 1 1 B
+X PC30 103 2000 450 197 L 39 39 1 1 B
+X VDDCORE 104 1150 2900 197 D 39 39 1 1 W
+X VDDIO 105 0 2900 197 D 39 39 1 1 W
+X GND 106 2000 1950 197 L 39 39 1 1 W
+X PA21 107 -2050 -1650 197 R 39 39 1 1 B
+X PA25 108 -2050 -2050 197 R 39 39 1 1 B
+X PA26 109 -2050 -2150 197 R 39 39 1 1 B
+X VDDIO 11 -200 2900 197 D 39 39 1 1 W
+X PA27 110 -2050 -2250 197 R 39 39 1 1 B
+X PA28 111 -2050 -2350 197 R 39 39 1 1 B
+X PA29 112 -2050 -2450 197 R 39 39 1 1 B
+X PB0 113 -1600 -2900 197 U 39 39 1 1 B
+X PB1 114 -1500 -2900 197 U 39 39 1 1 B
+X PB2 115 -1400 -2900 197 U 39 39 1 1 B
+X PC4 116 2000 -2150 197 L 39 39 1 1 B
+X PC10 117 2000 -1550 197 L 39 39 1 1 B
+X PB3 118 -1300 -2900 197 U 39 39 1 1 B
+X PB4 119 -1200 -2900 197 U 39 39 1 1 B
+X GND 12 2000 2150 197 L 39 39 1 1 W
+X PB5 120 -1100 -2900 197 U 39 39 1 1 B
+X PB6 121 -1000 -2900 197 U 39 39 1 1 B
+X PB7 122 -900 -2900 197 U 39 39 1 1 B
+X PB8 123 -800 -2900 197 U 39 39 1 1 B
+X VDDCORE 124 1250 2900 197 D 39 39 1 1 W
+X VDDIO 125 100 2900 197 D 39 39 1 1 W
+X GND 126 2000 1850 197 L 39 39 1 1 W
+X PB9 127 -700 -2900 197 U 39 39 1 1 B
+X PB10 128 -600 -2900 197 U 39 39 1 1 B
+X PB11 129 -500 -2900 197 U 39 39 1 1 B
+X PD0 13 2000 650 197 L 39 39 1 1 B
+X PC0 130 2000 -2550 197 L 39 39 1 1 B
+X PC20 131 2000 -550 197 L 39 39 1 1 B
+X PC21 132 2000 -450 197 L 39 39 1 1 B
+X PC22 133 2000 -350 197 L 39 39 1 1 B
+X PC23 134 2000 -250 197 L 39 39 1 1 B
+X PC24 135 2000 -150 197 L 39 39 1 1 B
+X PC25 136 2000 -50 197 L 39 39 1 1 B
+X PC26 137 2000 50 197 L 39 39 1 1 B
+X PC27 138 2000 150 197 L 39 39 1 1 B
+X PC28 139 2000 250 197 L 39 39 1 1 B
+X PD1 14 2000 750 197 L 39 39 1 1 B
+X PB14 140 -200 -2900 197 U 39 39 1 1 B
+X PB22 141 600 -2900 197 U 39 39 1 1 B
+X PB23 142 700 -2900 197 U 39 39 1 1 B
+X PB24 143 800 -2900 197 U 39 39 1 1 B
+X PB25 144 900 -2900 197 U 39 39 1 1 B
+X PD2 15 2000 850 197 L 39 39 1 1 B
+X PD3 16 2000 950 197 L 39 39 1 1 B
+X PD4 17 2000 1050 197 L 39 39 1 1 B
+X PD5 18 2000 1150 197 L 39 39 1 1 B
+X PD6 19 2000 1250 197 L 39 39 1 1 B
+X PA9 2 -2050 -450 197 R 39 39 1 1 B
+X PD7 20 2000 1350 197 L 39 39 1 1 B
+X PD8 21 2000 1450 197 L 39 39 1 1 B
+X PD9 22 2000 1550 197 L 39 39 1 1 B
+X PA0 23 -2050 450 197 R 39 39 1 1 B
+X PA1 24 -2050 350 197 R 39 39 1 1 B
+X PA5 25 -2050 -50 197 R 39 39 1 1 B
+X PA7 26 -2050 -250 197 R 39 39 1 1 B
+X PA8 27 -2050 -350 197 R 39 39 1 1 B
+X PB28 28 1200 -2900 197 U 39 39 1 1 B
+X PB29 29 1300 -2900 197 U 39 39 1 1 B
+X PA10 3 -2050 -550 197 R 39 39 1 1 B
+X PB30 30 1400 -2900 197 U 39 39 1 1 B
+X PB31 31 1500 -2900 197 U 39 39 1 1 B
+X PD10 32 2000 1650 197 L 39 39 1 1 B
+X GNDPLL 33 2000 2450 197 L 39 39 1 1 W
+X VDDPLL 34 1450 2900 197 D 39 39 1 1 W
+X XOUT 35 -2050 2300 197 R 39 39 1 1 B
+X XIN 36 -2050 2100 197 R 39 39 1 1 B
+X DHSDP 37 -2050 1200 197 R 39 39 1 1 B
+X DHSDM 38 -2050 1500 197 R 39 39 1 1 B
+X VBUS 39 -1600 2900 197 D 39 39 1 1 W
+X PA11 4 -2050 -650 197 R 39 39 1 1 B
+X VBG 40 -2050 900 197 R 39 39 1 1 I
+X VDDUTMI 41 550 2900 197 D 39 39 1 1 W
+X DFSDP 42 -2050 1100 197 R 39 39 1 1 B
+X DFSDM 43 -2050 1400 197 R 39 39 1 1 B
+X GNDUTMI 44 2000 2250 197 L 39 39 1 1 W
+X VDDCORE 45 950 2900 197 D 39 39 1 1 W
+X JTAGSEL 46 -1500 2900 197 D 39 39 1 1 I
+X NRSTB 47 -900 2900 197 D 39 39 1 1 I
+X XIN32 48 -2050 1700 197 R 39 39 1 1 B
+X XOUT32 49 -2050 1900 197 R 39 39 1 1 B
+X PA12 5 -2050 -750 197 R 39 39 1 1 B
+X SHDN 50 -1300 2900 197 D 39 39 1 1 O
+X TST 51 -2050 2500 197 R 39 39 1 1 I
+X VDDBU 52 450 2900 197 D 39 39 1 1 W
+X FWUP 53 -1400 2900 197 D 39 39 1 1 I
+X GNDBU 54 2000 2350 197 L 39 39 1 1 W
+X PC1 55 2000 -2450 197 L 39 39 1 1 B
+X VDDOUT 56 750 2900 197 D 39 39 1 1 w
+X VDDIN 57 -300 2900 197 D 39 39 1 1 W
+X GND 58 2000 2050 197 L 39 39 1 1 W
+X PC2 59 2000 -2350 197 L 39 39 1 1 B
+X PA13 6 -2050 -850 197 R 39 39 1 1 B
+X PC3 60 2000 -2250 197 L 39 39 1 1 B
+X VDDCORE 61 1050 2900 197 D 39 39 1 1 W
+X VDDIO 62 -100 2900 197 D 39 39 1 1 W
+X PC5 63 2000 -2050 197 L 39 39 1 1 B
+X PC6 64 2000 -1950 197 L 39 39 1 1 B
+X PC7 65 2000 -1850 197 L 39 39 1 1 B
+X PC8 66 2000 -1750 197 L 39 39 1 1 B
+X PC9 67 2000 -1650 197 L 39 39 1 1 B
+X PB27 68 1100 -2900 197 U 39 39 1 1 B
+X NRST 69 -800 2900 197 D 39 39 1 1 I
+X PA14 7 -2050 -950 197 R 39 39 1 1 B
+X PA18 70 -2050 -1350 197 R 39 39 1 1 B
+X PA19 71 -2050 -1450 197 R 39 39 1 1 B
+X PA20 72 -2050 -1550 197 R 39 39 1 1 B
+X VDDANA 73 350 2900 197 D 39 39 1 1 W
+X GNDANA 74 2000 2550 197 L 39 39 1 1 W
+X ADVREF 75 -600 2900 197 D 39 39 1 1 W
+X PB15 76 -100 -2900 197 U 39 39 1 1 B
+X PB16 77 0 -2900 197 U 39 39 1 1 B
+X PA16 78 -2050 -1150 197 R 39 39 1 1 B
+X PA24 79 -2050 -1950 197 R 39 39 1 1 B
+X PA15 8 -2050 -1050 197 R 39 39 1 1 B
+X PA23 80 -2050 -1850 197 R 39 39 1 1 B
+X PA22 81 -2050 -1750 197 R 39 39 1 1 B
+X PA6 82 -2050 -150 197 R 39 39 1 1 B
+X PA4 83 -2050 50 197 R 39 39 1 1 B
+X PA3 84 -2050 150 197 R 39 39 1 1 B
+X PA2 85 -2050 250 197 R 39 39 1 1 B
+X PB12 86 -400 -2900 197 U 39 39 1 1 B
+X PB13 87 -300 -2900 197 U 39 39 1 1 B
+X PB17 88 100 -2900 197 U 39 39 1 1 B
+X PB18 89 200 -2900 197 U 39 39 1 1 B
+X PA17 9 -2050 -1250 197 R 39 39 1 1 B
+X PB19 90 300 -2900 197 U 39 39 1 1 B
+X PB20 91 400 -2900 197 U 39 39 1 1 B
+X PB21 92 500 -2900 197 U 39 39 1 1 B
+X PC11 93 2000 -1450 197 L 39 39 1 1 B
+X PC12 94 2000 -1350 197 L 39 39 1 1 B
+X PC13 95 2000 -1250 197 L 39 39 1 1 B
+X PC14 96 2000 -1150 197 L 39 39 1 1 B
+X PC15 97 2000 -1050 197 L 39 39 1 1 B
+X PC16 98 2000 -950 197 L 39 39 1 1 B
+X PC17 99 2000 -850 197 L 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_SMA_Connector-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_SMA_Connector-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 115 0 20 H V C CNB
+F1 "Flight-Controller-v1-rescue_SMA_Connector-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 75 0 20 V V C CNB
+F2 "" -160 -20 60 H I C CNN
+F3 "" -160 -20 60 H I C CNN
+DRAW
+C 0 0 25 0 1 0 F
+C 0 0 60 0 1 0 f
+S -60 0 -20 0 0 1 0 N
+X ~ 1 -150 0 87 R 20 50 1 1 P
+X ~ 2 -50 -100 65 U 20 50 1 1 P
+X ~ 3 50 -100 65 U 20 39 1 1 P
+X ~ 4 -50 100 65 D 20 50 1 1 P
+X ~ 5 50 100 65 D 20 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_TPA2012D-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_TPA2012D-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 850 79 H V C CNB
+F1 "Flight-Controller-v1-rescue_TPA2012D-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 79 H V C CNB
+F2 "" 30 -590 60 H I C CNN
+F3 "" 30 -590 60 H I C CNN
+DRAW
+S -750 750 700 -850 0 1 20 f
+X G1 1 900 -800 197 L 39 39 1 1 I
+X NC 10 900 600 197 L 39 39 1 1 B
+X OUTR- 11 900 -100 197 L 39 39 1 1 O
+X PGND 12 -950 -600 197 R 39 39 1 1 W
+X PVDD 13 -950 600 197 R 39 39 1 1 W
+X OUTR+ 14 900 -200 197 L 39 39 1 1 O
+X G0 15 900 -700 197 L 39 39 1 1 I
+X INR+ 16 -950 -200 197 R 39 39 1 1 I
+X INR- 17 -950 -100 197 R 39 39 1 1 I
+X AGND 18 -950 -800 197 R 39 39 1 1 W
+X INL- 19 -950 300 197 R 39 39 1 1 I
+X OUTL+ 2 900 300 197 L 39 39 1 1 O
+X INL+ 20 -950 200 197 R 39 39 1 1 I
+X THERMAL 21 -950 -500 197 R 39 39 1 1 W
+X PVDD 3 -950 700 197 R 39 39 1 1 W
+X PGND 4 -950 -700 197 R 39 39 1 1 W
+X OUTL- 5 900 400 197 L 39 39 1 1 O
+X NC 6 900 700 197 L 39 39 1 1 B
+X SHUTDOWN_L 7 -950 100 197 R 39 39 1 1 I
+X SHUTDOWN_R 8 -950 -300 197 R 39 39 1 1 I
+X AVDD 9 -950 500 197 R 39 39 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_TXB0104RGYR-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_TXB0104RGYR-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 400 39 H V C CNB
+F1 "Flight-Controller-v1-rescue_TXB0104RGYR-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" 0 0 39 H V C CNB
+F2 "" 100 -300 39 H I C CNN
+F3 "" 100 -300 39 H I C CNN
+DRAW
+S -400 350 400 -350 0 1 20 f
+X VCCA 1 -200 550 197 D 39 39 1 1 W
+X B4 10 600 -100 197 L 39 39 1 1 B
+X B3 11 600 0 197 L 39 39 1 1 B
+X B2 12 600 100 197 L 39 39 1 1 B
+X B1 13 600 200 197 L 39 39 1 1 B
+X VCCB 14 200 550 197 D 39 39 1 1 W
+X EXP 15 0 -550 197 U 39 39 1 1 I
+X A1 2 -600 200 197 R 39 39 1 1 B
+X A2 3 -600 100 197 R 39 39 1 1 B
+X A3 4 -600 0 197 R 39 39 1 1 B
+X A4 5 -600 -100 197 R 39 39 1 1 B
+X NC 6 -600 -200 197 R 39 39 1 1 B
+X GND 7 -200 -550 197 U 39 39 1 1 W
+X OE 8 200 -550 197 U 39 39 1 1 I
+X NC 9 600 -200 197 L 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Flight-Controller-v1-rescue_USB_MicroB-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue
+#
+DEF Flight-Controller-v1-rescue_USB_MicroB-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue J 0 40 Y Y 1 F N
+F0 "J" -30 280 39 H V L CNB
+F1 "Flight-Controller-v1-rescue_USB_MicroB-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue-Flight-Controller-v1-rescue" -200 -170 39 V V L CNB
+F2 "" -270 0 50 V I C CNN
+F3 "" -270 0 50 V I C CNN
+DRAW
+C -145 -25 15 0 1 10 F
+C -95 -150 25 0 1 10 F
+S -170 250 180 -250 0 1 0 f
+S -60 10 -30 -20 0 1 10 F
+S 140 210 180 190 0 1 0 F
+S 180 -190 140 -210 0 1 0 F
+S 180 -90 140 -110 0 1 0 F
+S 180 10 140 -10 0 1 0 F
+S 180 110 140 90 0 1 0 F
+P 2 0 1 10 -95 -75 -95 25 N
+P 4 0 1 10 -120 25 -70 25 -95 75 -120 25 F
+P 4 0 1 10 -95 -125 -95 -100 -145 -50 -145 -25 N
+P 4 0 1 10 -95 -100 -95 -75 -45 -50 -45 0 N
+P 5 0 1 0 -140 170 -40 170 -50 140 -130 140 -140 170 F
+P 9 0 1 0 -155 180 -155 170 -145 140 -145 130 -35 130 -35 140 -25 170 -25 180 -155 180 N
+X VBUS 1 250 200 79 L 39 39 1 1 w
+X D- 2 250 100 79 L 39 39 1 1 B
+X D+ 3 250 0 79 L 39 39 1 1 B
+X ID 4 250 -100 79 L 39 39 1 1 B
+X GND 5 250 -200 79 L 39 39 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
