@@ -12,6 +12,6 @@ It can be used with Arduino IDE for simple test and implementation.
 
 Since this was my first flight controller board design, i did not added a good stand alone gyro sensor. Instead used BNO055 since it provides both Euler Angle and Gyro Acc and Magnetometer results.
 
-PCB is ordered from OSH Park with 4 laye stack up. Layer information can be found here: https://docs.oshpark.com/services/four-layer/
+Stackup layer information can be found here: https://docs.oshpark.com/services/four-layer/
 
 ![flight](https://user-images.githubusercontent.com/61315249/75037893-3c4a9500-54c6-11ea-93c4-a54f7095cf36.png)
