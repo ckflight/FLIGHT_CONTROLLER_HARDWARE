@@ -14,4 +14,7 @@ Since this was my first flight controller board design, i did not added a good s
 
 Stackup layer information can be found here: https://docs.oshpark.com/services/four-layer/
 
+![IMG_20200227_003748](https://user-images.githubusercontent.com/61315249/75391439-1f192a80-58fb-11ea-89f6-d79ffdd6ec90.jpg)
+
+
 ![flight](https://user-images.githubusercontent.com/61315249/75037893-3c4a9500-54c6-11ea-93c4-a54f7095cf36.png)
