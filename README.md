@@ -1,4 +1,4 @@
-# Flight_Controller_Hardware
+# FLIGHT_CONTROLLER_HARDWARE
 
 This is the first Flight_Controller Board i designed a few years ago with ATMEL SAM3X8E MCU, BNO055 Orientation Sensor, TPA2012D Audio Amplifier, CC2541 Bluetooth IC, 4 channel PWM input for radio interface (no SBUS input is available on this version), Microcard slot for data logging and ESC PWM pins. Board is tested on a Quadcopter and it is working fine.
 
