@@ -6,7 +6,7 @@ CC2541 IC can be flashed with HM10 firmware for the simplicity if you do not wan
 
 It can be used with Arduino IDE for simple test and implementation.
 
-50 Ohm microstrip impedance transmission line is making 0.342mm trace width with below stackup.
+50 Ohm impedance microstrip transmission line is making 0.342mm trace width with below stackup.
 
 2 x 1W Stereo Speaker can be connected to the Audio Amplifier.
 
