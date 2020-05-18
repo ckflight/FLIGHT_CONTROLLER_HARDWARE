@@ -16,4 +16,4 @@ Stackup layer information can be found here: https://docs.oshpark.com/services/f
 
 ![IMG_20200227_003748](https://user-images.githubusercontent.com/61315249/75391439-1f192a80-58fb-11ea-89f6-d79ffdd6ec90.jpg)
 
-![flight controller](https://user-images.githubusercontent.com/61315249/82239411-65ea4f80-9941-11ea-83ac-2c5c6a63b738.png)
+![flight controller](https://user-images.githubusercontent.com/61315249/82239704-dbeeb680-9941-11ea-99d1-bf97cf3a3f58.png)
